@@ -1,4 +1,7 @@
 # Unicorn_companies
+### **Visualisasi Unicorn Companies**
+Private companies with a valuation over $1 billion as of March 2022, including each company's current valuation, funding, country of origin, industry, select investors, and the years they were founded and became unicorns.
+
 
 ## 📌Table of contents
 - [Study Case](https://github.com/DiannitaOlipmimi/regresi_linier#study-case)
@@ -7,11 +10,6 @@
 - [Links](https://github.com/DiannitaOlipmimi/regresi_dan_asumsinya#step-by-step-analysis)
 
 ## 📌**Study Case**
-### **Memprediksi Harga Rumah Menggunakan Regresi Linier Berganda**
-
-### 📒 Deskripsi Masalah:
-sebuah agensi real estate ingin membuat model yang dapat memprediksi harga rumah berdasarkan fasilitas dalam rumah seperti jumlah kamar, luas rumah, dan lain-lain. agensi ini memiliki tujuan membantu kliennya memperkirakan harga rumah dan mengembangkan proses pengambilan keputusan.
-
 ### 📒 Data dan Variabel:
 data yang didapatkan merupakan data yang memiliki informasi harga-harga penjualan rumah pada tahun-tahun sebelumnya. data ini memiliki data numerik dan data kategorikal dengan variabel-variabelnya,
 - `Company` : nama perusahaan yang telah terdaftar menjadi unicorn
