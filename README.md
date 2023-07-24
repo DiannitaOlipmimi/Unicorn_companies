@@ -14,12 +14,21 @@ sebuah agensi real estate ingin membuat model yang dapat memprediksi harga rumah
 
 ### 📒 Data dan Variabel:
 data yang didapatkan merupakan data yang memiliki informasi harga-harga penjualan rumah pada tahun-tahun sebelumnya. data ini memiliki data numerik dan data kategorikal dengan variabel-variabelnya,
-- *price* : harga rumah
-- *area* : luas area rumah
-- *bedrooms* : jumlah kamar tidur 
-- *bathrooms* : jumlah kamar mandi
-- *stories* : jumlah lantai/tingkatan dalam satu rumah
-- *parking* : banyaknya kendaraan yang bisa terparkir didalam rumah
+- `Company` : nama perusahaan yang telah terdaftar menjadi unicorn
+- `Valuation` : nilai asset perusahaan
+- `Date Joined` : tanggal perusahaan terdaftar menjadi unicorn
+- `Industry` : industri perusahaan
+- `City` : kota asal perusahaan
+- `Country` : negara asal perusahaan
+- `Continent` : benua asal perusahaan
+- `Year Founded` : tahun didirikannya perusahaan
+- `Funding` : jumlah modal perusahaan
+- `Select Investors` : investor yang menanamkan modal kepada perusahaan
+- `Year Joined` : tahun perusahaan menjadi unicorn
+- `roi` : return of Investment (profitabilitas) perusahaan
+- `range` : selisih modal dan nilai asset perusahaan 
+- `roi_category` : kategori selisih modal dan nilai asset perusahaan [100% profitable, unprovitable]
+- `year category` : kategori selisih tahun perusahaan berdiri dan menjadi unicorn [less than 5 years, more than 5 years]
 
 ### 📒 Tujuan:
 membuat model regresi yang dapat memprediksi harga penjualan rumah berdasarkan variabel yang ada
@@ -48,6 +57,6 @@ membuat model regresi yang dapat memprediksi harga penjualan rumah berdasarkan v
 |ClickHouse           |$2,000,000,000.|28-Oct-21  |Data management & analytics    |Portola Valley|United States|North America|2021        |$300,000,000.  |Lightspeed Venture Partners, Almaz Capital Partners, Altimeter Capital|2021       |566.67% |0    |100% profitable|less than 5 year|
 
 ## 📌**Links**
-`https://www.mavenanalytics.io/data-playground?accessType=open&order=fields.numberOfRecords`
+https://www.mavenanalytics.io/data-playground?accessType=open&order=fields.numberOfRecords
 
-`https://www.investopedia.com/articles/basics/10/guide-to-calculating-roi.asp#:~:text=Return%20on%20investment%20(ROI)%20is%20an%20approximate%20measure%20of%20an,finally%2C%20multiplying%20it%20by%20100.`
+https://www.investopedia.com/articles/basics/10/guide-to-calculating-roi.asp#:~:text=Return%20on%20investment%20(ROI)%20is%20an%20approximate%20measure%20of%20an,finally%2C%20multiplying%20it%20by%20100.
