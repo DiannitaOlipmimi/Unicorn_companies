@@ -34,6 +34,7 @@ membuat model regresi yang dapat memprediksi harga penjualan rumah berdasarkan v
 6. Mencari hubungan antar variabel menggunakan scatter plot
 
 ## 📌**Result**
+![Alt text](Images/dashboard.png)
 
 
 ## 📌**Dataset**
