@@ -46,13 +46,27 @@ membuat model regresi yang dapat memprediksi harga penjualan rumah berdasarkan v
 ## 📌**Result**
 ### 📒 Data Card:
 
-### 📒 Stack line chart:
+### 📒 Stack area chart:
+
+![Alt text](<Images/stacked area chart.png>)
 
 ### 📒 Stacked bar chart:
 
+![Alt text](<Images/funding bar chart.png>)
+
+![Alt text](<Images/valuation bar chart.png>)
+
 ### 📒 Stack column chart:
 
+![Alt text](<Images/funding column chart.png>)
+
+![Alt text](<Images/valuation column chart.png>)
+
 ### 📒 Stack pie chart:
+
+![Alt text](<Images/roi pie chart.png>)
+
+![Alt text](<Images/years pie chart.png>)
 
 ### 📒 Visualisasi:
 ![Alt text](Images/dashboard.png)
