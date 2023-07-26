@@ -40,6 +40,56 @@ membuat model regresi yang dapat memprediksi harga penjualan rumah berdasarkan v
 5. Melihat adanya outlier menggunakan boxplot
 6. Mencari hubungan antar variabel menggunakan scatter plot
 
+Analysis Steps:
+
+Data Loading and Initial Exploration:
+
+Load the Unicorn Companies dataset into the analysis environment.
+Check the dimensions of the dataset (number of rows and columns).
+Examine the first few rows to get a sense of the data structure and variables.
+Data Cleaning and Preprocessing:
+
+Handle missing values and outliers, if any, to ensure data integrity.
+Convert data types as needed for visualization (e.g., converting the valuation from text to numeric format).
+Overview Visualization:
+
+Create a bar chart or pie chart to visualize the distribution of unicorn companies across different industries or countries.
+Show the top industries and countries with the highest number of unicorn companies.
+Valuation Distribution:
+
+Plot a histogram or box plot to visualize the distribution of company valuations.
+Analyze the spread of valuations and identify any potential outliers or extreme values.
+Time Trend Analysis:
+
+Create a line chart or area chart to visualize the trend of unicorn companies founded over the years.
+Analyze the growth of unicorn startups and identify any spikes or declines in their formation.
+Funding Analysis:
+
+Generate a bar chart or stacked bar chart to visualize the number of funding rounds for unicorn companies.
+Compare the funding rounds' frequencies across different industries or countries.
+Correlation Analysis:
+
+Create a heatmap to visualize the correlation between valuation and other numeric features (e.g., funding rounds, year of founding).
+Identify any significant correlations that may influence a company's valuation.
+Geographic Visualization:
+
+Use a geographic map or choropleth map to visualize the distribution of unicorn companies across different countries.
+Adjust the map colors based on valuation to highlight the countries with the highest-valued startups.
+Bubble Chart for Industry Insights:
+
+Generate a bubble chart to represent the relationship between valuation, funding rounds, and industry.
+Size the bubbles based on valuation and color them by industry to visualize patterns.
+Interactive Dashboard:
+
+Combine multiple visualizations into an interactive dashboard using tools like Tableau or Plotly.
+Allow stakeholders to explore the data dynamically, filtering by industry, country, or valuation.
+Insights and Recommendations:
+
+Summarize key findings and insights from the visualizations.
+Identify emerging trends, potential growth opportunities, and challenges faced by unicorn companies.
+Provide recommendations for investors, entrepreneurs, and policymakers based on the data-driven analysis.
+By visualizing the Unicorn Companies dataset, stakeholders can gain valuable insights into the unicorn startup landscape, helping them make informed decisions and strategies related to investments, market opportunities, and industry-specific trends.
+
 ## 📌**Result**
 ![Alt text](Images/dashboard.png)
 
