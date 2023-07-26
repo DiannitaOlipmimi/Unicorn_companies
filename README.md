@@ -54,7 +54,7 @@ membuat model regresi yang dapat memprediksi harga penjualan rumah berdasarkan v
 
 ### 📒 Stack pie chart:
 
-
+### 📒 Visualisasi:
 ![Alt text](Images/dashboard.png)
 
 
