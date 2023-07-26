@@ -36,10 +36,7 @@ membuat model regresi yang dapat memprediksi harga penjualan rumah berdasarkan v
 1. Melakukan pengecekan apakah terdapat missing data, duplicate data, dan error data
 2. Mengambil tahun pada kolom `date joined` dan mengubahnya menjai kolom `year joined`
 3. Menghitung selisih tahun didirikannya perusahaan dengan ditetapkannya menjadi unicorn dengan cara mengurangi kolom `year founded` dengan `year joined`
-4. Menghitung ROI atau *Return of Investment* dengan cara:
-
-`valuation`-`funding`/`funding` 
-
+4. Menghitung ROI atau *Return of Investment* dengan cara: `valuation`-`funding`/`funding` 
 5. Membuat kolom baru yang berisi kategori ROI yang terbagi menjadi perusahaan telah 100% profitable dan unprofitable
 6. Membuat kolom baru yang berisi kategori tahun yang terbagi menjadi less than 5 years dan more than 5 years
 
