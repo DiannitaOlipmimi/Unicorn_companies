@@ -25,8 +25,8 @@ data yang didapatkan merupakan data yang memiliki informasi harga-harga penjuala
 - `Year Joined` : tahun perusahaan menjadi unicorn
 - `roi` : return of Investment (profitabilitas) perusahaan
 - `range` : selisih modal dan nilai asset perusahaan 
-- `roi_category` : kategori selisih modal dan nilai asset perusahaan [100% profitable, unprovitable]
-- `year category` : kategori selisih tahun perusahaan berdiri dan menjadi unicorn [less than 5 years, more than 5 years]
+- `roi_category` : kategori selisih modal dan nilai asset perusahaan (100% profitable, unprovitable)
+- `year category` : kategori selisih tahun perusahaan berdiri dan menjadi unicorn (less than 5 years, more than 5 years)
 
 ### 📒 Tujuan:
 membuat model regresi yang dapat memprediksi harga penjualan rumah berdasarkan variabel yang ada
