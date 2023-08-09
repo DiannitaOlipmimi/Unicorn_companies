@@ -44,7 +44,7 @@ data yang didapatkan merupakan data yang memiliki informasi harga-harga penjuala
 - `year category` : kategori selisih tahun perusahaan berdiri dan menjadi unicorn (less than 5 years, more than 5 years)
 
 ## 📌**Result**
-### 📒 Langkah Analisis:
+**📒 Langkah Analisis:**
 ✅ *Exploratory Data Analysis* (EDA):
 1. Melakukan pengecekan apakah terdapat missing data, duplicate data, dan error data
 2. Mengambil tahun pada kolom `date joined` dan mengubahnya menjai kolom `year joined`
@@ -54,6 +54,40 @@ data yang didapatkan merupakan data yang memiliki informasi harga-harga penjuala
 6. Membuat kolom baru yang berisi kategori tahun yang terbagi menjadi less than 5 years dan more than 5 years
 
 ![Alt text](Images/dashboard.png)
+
+**📒 Summary**
+✅Valuation Trends: Track the valuation trends of different unicorn companies over time. Highlight the companies that have experienced significant valuation increases or decreases.
+
+✅Industry Distribution: Visualize the distribution of unicorn companies across different industries. Identify which industries have the highest concentration of unicorns.
+
+✅Geographic Distribution: Display the geographic distribution of unicorn companies. Highlight regions or countries with a high number of unicorns.
+
+✅Funding Rounds: Show the number of funding rounds each unicorn company has gone through. Compare the funding rounds' amounts and growth trajectories.
+
+✅Valuation vs. Funding: Analyze the relationship between valuation and funding amounts. Determine if higher funding rounds correspond to higher valuations.
+
+✅Unicorn Birth Year: Display a timeline of when each unicorn company was founded. Identify patterns or trends in the birth years of these companies.
+
+✅Revenue Growth: Showcase the revenue growth of selected unicorn companies. Highlight companies that have achieved substantial revenue increases.
+
+✅User Metrics: If applicable, present user growth metrics, such as active users, registered users, or monthly active users. Identify companies with remarkable user adoption rates.
+
+✅Profitability Status: Highlight whether unicorn companies are profitable or still in the growth phase. This could help investors understand the risk profile of these companies.
+
+✅Exit Strategies: Provide insights into potential exit strategies such as IPOs or acquisitions. Show which companies have taken steps toward these strategies.
+
+✅Leadership Changes: Track changes in executive leadership within unicorn companies. Highlight shifts that could impact company performance.
+
+✅Competitor Analysis: Compare unicorn companies within the same industry. Analyze their valuations, revenue, funding, and growth rates side by side.
+
+✅Market Share: If applicable, showcase the market share of unicorn companies in their respective industries. Identify market leaders and emerging players.
+
+✅Investor Landscape: Visualize the list of investors for each unicorn company. Identify common investors among different unicorns.
+
+✅Employee Growth: Display the growth in the number of employees in unicorn companies. Highlight companies experiencing rapid workforce expansion.
+
+✅Economic Impact: Explore the economic impact of unicorn companies in terms of job creation, innovation, and industry disruption.
+
 
 ## 📌**Links**
 📊Dataset by Maven Analytics
