@@ -16,15 +16,14 @@ membuat model regresi yang dapat memprediksi harga penjualan rumah berdasarkan v
 
 ## 🧵Dataset dan Variabel
 **📒 Data:** 
-## 📌**Dataset**
-### **Unicorn Companies**
-|Company              |Valuation      |Date Joined|Industry                       |City          |Country      |Continent    |Year Founded|Funding        |Select Investors                                                      |Year Joined|roi     |range|roi_category   |year category   |
-|---------------------|---------------|-----------|-------------------------------|--------------|-------------|-------------|------------|---------------|----------------------------------------------------------------------|-----------|--------|-----|---------------|----------------|
-|Yidian Zixun         |$1,000,000,000.|17-Oct-17  |Mobile & telecommunications    |Beijing       |China        |Asia         |2021        |$151,000,000.  |Phoenix New Media, Tianjin Haihe Industry Fund                        |2017       |562.25% |-4   |100% profitable|less than 5 year|
-|Flink Food           |$3,000,000,000.|1-Dec-21   |E-commerce & direct-to-consumer|Berlin        |Germany      |Europe       |2021        |$1,000,000,000.|Mubadala Capital, Bond, Prosus Ventures                               |2021       |200.00% |0    |100% profitable|less than 5 year|
-|Playco               |$1,000,000,000.|21-Sep-20  |Other                          |Tokyo         |Japan        |Asia         |2020        |$140,000,000.  |Sozo Ventures, Caffeinated Capital, Sequoia Capital                   |2020       |614.29% |0    |100% profitable|less than 5 year|
-|Mensa Brands         |$1,000,000,000.|16-Nov-21  |Other                          |Bengaluru     |India        |Asia         |2021        |$218,000,000.  |Accel, Falcon Edge Capital, Norwest Venture Partners                  |2021       |358.72% |0    |100% profitable|less than 5 year|
-|ClickHouse           |$2,000,000,000.|28-Oct-21  |Data management & analytics    |Portola Valley|United States|North America|2021        |$300,000,000.  |Lightspeed Venture Partners, Almaz Capital Partners, Altimeter Capital|2021       |566.67% |0    |100% profitable|less than 5 year|
+**Unicorn Companies**
+| Company   | Valuation | Date Joined | Industry                        | City          | Country       | Continent     | Year Founded | Funding | Select Investors                                                         |
+| --------- | --------- | ----------- | ------------------------------- | ------------- | ------------- | ------------- | ------------ | ------- | ------------------------------------------------------------------------ |
+| Bytedance | $180B     | 7/04/2017   | Artificial intelligence         | Beijing       | China         | Asia          | 2012         | $8B     | Sequoia Capital China, SIG Asia Investments, Sina Weibo, Softbank Group  |
+| SpaceX    | $100B     | 1/12/2012   | Other                           | Hawthorne     | United States | North America | 2002         | $7B     | Founders Fund, Draper Fisher Jurvetson, Rothenberg Ventures              |
+| SHEIN     | $100B     | 3/07/2018   | E-commerce & direct-to-consumer | Shenzhen      | China         | Asia          | 2008         | $2B     | Tiger Global Management, Sequoia Capital China, Shunwei Capital Partners |
+| Stripe    | $95B      | 23/01/2014  | Fintech                         | San Francisco | United States | North America | 2010         | $2B     | Khosla Ventures, LowercaseCapital, capitalG                              |
+| Klarna    | $46B      | 12/12/2011  | Fintech                         | Stockholm     | Sweden        | Europe        | 2005         | $4B     | Institutional Venture Partners, Sequoia Capital, General Atlantic        |
 
 **📒 Variabel:**
 data yang didapatkan merupakan data yang memiliki informasi harga-harga penjualan rumah pada tahun-tahun sebelumnya. data ini memiliki data numerik dan data kategorikal dengan variabel-variabelnya,
@@ -58,7 +57,9 @@ data yang didapatkan merupakan data yang memiliki informasi harga-harga penjuala
 
 ## 📌**Links**
 📊Dataset by Maven Analytics
+
 https://www.mavenanalytics.io/data-playground?accessType=open&order=fields.numberOfRecords
 
 📊ROI formula
+
 https://www.investopedia.com/articles/basics/10/guide-to-calculating-roi.asp#:~:text=Return%20on%20investment%20(ROI)%20is%20an%20approximate%20measure%20of%20an,finally%2C%20multiplying%20it%20by%20100.
