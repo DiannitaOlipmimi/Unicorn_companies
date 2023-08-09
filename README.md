@@ -57,6 +57,8 @@ data yang didapatkan merupakan data yang memiliki informasi harga-harga penjuala
 ![Alt text](Images/dashboard.png)
 
 ## 📌**Links**
+📊Dataset by Maven Analytics
 https://www.mavenanalytics.io/data-playground?accessType=open&order=fields.numberOfRecords
 
+📊ROI formula
 https://www.investopedia.com/articles/basics/10/guide-to-calculating-roi.asp#:~:text=Return%20on%20investment%20(ROI)%20is%20an%20approximate%20measure%20of%20an,finally%2C%20multiplying%20it%20by%20100.
