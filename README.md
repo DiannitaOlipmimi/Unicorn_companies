@@ -16,6 +16,7 @@ membuat model regresi yang dapat memprediksi harga penjualan rumah berdasarkan v
 
 ## 🧵Dataset dan Variabel
 **📒 Data:** 
+
 **Unicorn Companies**
 | Company   | Valuation | Date Joined | Industry                        | City          | Country       | Continent     | Year Founded | Funding | Select Investors                                                         |
 | --------- | --------- | ----------- | ------------------------------- | ------------- | ------------- | ------------- | ------------ | ------- | ------------------------------------------------------------------------ |
@@ -26,6 +27,7 @@ membuat model regresi yang dapat memprediksi harga penjualan rumah berdasarkan v
 | Klarna    | $46B      | 12/12/2011  | Fintech                         | Stockholm     | Sweden        | Europe        | 2005         | $4B     | Institutional Venture Partners, Sequoia Capital, General Atlantic        |
 
 **📒 Variabel:**
+
 data yang didapatkan merupakan data yang memiliki informasi harga-harga penjualan rumah pada tahun-tahun sebelumnya. data ini memiliki data numerik dan data kategorikal dengan variabel-variabelnya,
 - `Company` : nama perusahaan yang telah terdaftar menjadi unicorn
 - `Valuation` : nilai asset perusahaan
@@ -44,8 +46,11 @@ data yang didapatkan merupakan data yang memiliki informasi harga-harga penjuala
 - `year category` : kategori selisih tahun perusahaan berdiri dan menjadi unicorn (less than 5 years, more than 5 years)
 
 ## 📌**Result**
+
 **📒 Langkah Analisis:**
+
 ✅ *Exploratory Data Analysis* (EDA):
+
 1. Melakukan pengecekan apakah terdapat missing data, duplicate data, dan error data
 2. Mengambil tahun pada kolom `date joined` dan mengubahnya menjai kolom `year joined`
 3. Menghitung selisih tahun didirikannya perusahaan dengan ditetapkannya menjadi unicorn dengan cara mengurangi kolom `year founded` dengan `year joined`
@@ -56,6 +61,7 @@ data yang didapatkan merupakan data yang memiliki informasi harga-harga penjuala
 ![Alt text](Images/dashboard.png)
 
 **📒 Summary**
+
 ✅Valuation Trends: Track the valuation trends of different unicorn companies over time. Highlight the companies that have experienced significant valuation increases or decreases.
 
 ✅Industry Distribution: Visualize the distribution of unicorn companies across different industries. Identify which industries have the highest concentration of unicorns.
